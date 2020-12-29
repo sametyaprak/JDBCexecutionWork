@@ -14,7 +14,7 @@ public class Driver {
     public static WebDriver getDriver(){
 
         if(driver == null){
-            switch (TESTNG.utilities.ConfigReader.getProperty("browser")){ // chrome // firefox
+            switch (utilities.ConfigReader.getProperty("browser")){ // chrome // firefox
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();

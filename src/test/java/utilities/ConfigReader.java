@@ -9,7 +9,7 @@ public class ConfigReader {
     // static yaptık çünkü nesne oluşturmadan doğrudan erişim sağlamak istedik
     static {
 
-        String path = "configuration.properties";
+        String path = "src/test/configuration.properties";
 
         try {
             FileInputStream fileInputStream = new FileInputStream(path);

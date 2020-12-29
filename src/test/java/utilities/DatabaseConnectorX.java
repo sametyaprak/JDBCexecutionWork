@@ -1,7 +1,4 @@
 package utilities;
-
-import CUCUMBER.utilities.ConfigurationReader;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,9 +7,9 @@ import java.util.Map;
 
 public class DatabaseConnectorX {
 
-    private static final String dbusername = ConfigurationReader.getProperty("username");
-    private static final String dbpassword = ConfigurationReader.getProperty("password");
-    private static final String connectionUrl = ConfigurationReader.getProperty("db_url");
+    private static final String dbusername = utilities.ConfigReader.getProperty("username");
+    private static final String dbpassword = utilities.ConfigReader.getProperty("password");
+    private static final String connectionUrl = utilities.ConfigReader.getProperty("db_url");
 
     private static Connection connection;
     private static Statement statement;
