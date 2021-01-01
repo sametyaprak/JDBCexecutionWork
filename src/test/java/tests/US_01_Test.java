@@ -137,4 +137,49 @@ public class US_01_Test {
         System.out.println(numberOfFemaleData);
         //Assert.assertEquals(numberOfMaleData,0);
     }
+    @Test
+    public void tc0110(){
+
+    }
+    @Test
+    public void tc0111(){
+
+    }
+    @Test
+    public void tc0112(){
+
+    }
+    @Test
+    public void tc0113(){
+
+    }
+    @Test
+    public void tc0114(){
+
+    }
+    @Test
+    public void tc0115(){
+
+    }@Test
+    public void tc0116(){
+
+    }
+    @Test
+    public void tc0117(){
+
+    }
+    @Test
+    public void tc0118(){
+
+    }
+    @Test
+    public void tc0119(){
+
+    }
+    @Test
+    public void tc0120(){
+
+    }
+
+
 }
