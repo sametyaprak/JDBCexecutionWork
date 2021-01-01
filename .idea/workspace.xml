@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="" />
+    <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +46,8 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.US_01_Test.tc0108">
-    <configuration name="US_01_Test.tc0103" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.US_01_Test">
+    <configuration name="US_01_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -53,40 +57,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
-      <option name="METHOD_NAME" value="tc0103" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_01_Test.tc0106" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
-      <option name="METHOD_NAME" value="tc0106" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_01_Test.tc0107" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
-      <option name="METHOD_NAME" value="tc0107" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_01_Test.test106" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_01_Test.tc0117" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +88,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
-      <option name="METHOD_NAME" value="test106" />
+      <option name="METHOD_NAME" value="tc0117" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_01_Test.tc0118" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
+      <option name="METHOD_NAME" value="tc0118" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_01_Test.tc0119" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test" />
+      <option name="METHOD_NAME" value="tc0119" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.US_01_Test" />
+        <item itemvalue="JUnit.US_01_Test.tc0119" />
+        <item itemvalue="JUnit.US_01_Test.tc0118" />
+        <item itemvalue="JUnit.US_01_Test.tc0117" />
         <item itemvalue="JUnit.US_01_Test.tc0108" />
-        <item itemvalue="JUnit.US_01_Test.tc0107" />
-        <item itemvalue="JUnit.US_01_Test.tc0106" />
-        <item itemvalue="JUnit.US_01_Test.test106" />
-        <item itemvalue="JUnit.US_01_Test.tc0103" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +157,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

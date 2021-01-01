@@ -7,17 +7,16 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import org.testng.Assert;
 import utilities.ConfigReader;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class US_01_Test {
     Response response;
     String endPoint = "https://gorest.co.in/public-api/users/";
     JsonPath json;
-    List<String> dataString = new ArrayList<>();
-    List<Integer> dataInteger = new ArrayList<>();
-    HashSet<Integer> dataIntegerSet = new HashSet<>();
+    List<Integer> integerDataList = new ArrayList<>();
+    HashSet<Integer> integerDataSet = new HashSet<>();
+    List<String> stringDataList = new ArrayList<>();
+    HashSet<String> stringDataSet = new HashSet<>();
 
     public void getResponse(String endPoint){
         response = given().accept(ContentType.JSON).auth().oauth2(ConfigReader.getProperty("token")).when().get(endPoint);
@@ -37,13 +36,13 @@ public class US_01_Test {
     public void tc0103(){
         getResponse(endPoint);
         json = response.jsonPath();
-        Assert.assertEquals(json.getInt("meta.pagination.total"),1375);
+        //Assert.assertEquals(json.getInt("meta.pagination.total"),1375);
     }
     @Test
     public void tc0104(){
         getResponse(endPoint);
         json = response.jsonPath();
-        Assert.assertEquals(json.getInt("meta.pagination.pages"),69);
+        //Assert.assertEquals(json.getInt("meta.pagination.pages"),69);
     }
     @Test
     public void tc0105(){
@@ -54,11 +53,11 @@ public class US_01_Test {
         for(int i=1;i<=totalPages;i++){
             getResponse(endPoint+ "?page="+i);
             json = response.jsonPath();
-            dataInteger.addAll(json.getList("data.id"));
+            integerDataList.addAll(json.getList("data.id"));
         }
-        System.out.println(dataInteger);
-        for (int i=0;i<dataInteger.size()-1;i++){
-            if(dataInteger.get(i)>dataInteger.get(i+1)){
+        System.out.println(integerDataList);
+        for (int i = 0; i< integerDataList.size()-1; i++){
+            if(integerDataList.get(i)> integerDataList.get(i+1)){
                 sum++;
                 break;
             }
@@ -73,10 +72,10 @@ public class US_01_Test {
         for(int i=1;i<=totalPages;i++){
             getResponse(endPoint+ "?page="+i);
             json = response.jsonPath();
-            dataInteger.addAll(json.getList("data.id"));
-            dataIntegerSet.addAll(json.getList("data.id"));
+            integerDataList.addAll(json.getList("data.id"));
+            integerDataSet.addAll(json.getList("data.id"));
         }
-        Assert.assertEquals(dataInteger.size(),dataIntegerSet.size());
+        Assert.assertEquals(integerDataList.size(), integerDataSet.size());
     }
 
 
@@ -108,11 +107,15 @@ public class US_01_Test {
         int totalLimitPerPages = json.getInt("meta.pagination.limit");
         for(int i=1;i<=totalPages;i++){
             getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
             for(int j=0;j<totalLimitPerPages;j++){
-                if(json.getString("data.gender["+j+"]").equals("Male")){
-                    System.out.println(i+" page, "+ j + " index data is MALE");
-                    numberOfMaleData++;
+                if(json.getString("data.gender["+j+"]")!=null){
+                    if(json.getString("data.gender["+j+"]").equals("Male")){
+                        System.out.println(i+" page, "+ j + " index data is MALE");
+                        numberOfMaleData++;
+                    }
                 }
+
             }
         }
         System.out.println(numberOfMaleData);
@@ -127,10 +130,13 @@ public class US_01_Test {
         int totalLimitPerPages = json.getInt("meta.pagination.limit");
         for(int i=1;i<=totalPages;i++){
             getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
             for(int j=0;j<totalLimitPerPages;j++){
-                if(json.getString("data.gender["+j+"]").equals("Female")){
-                    System.out.println(i+" page, "+ j + " index data is FEMALE");
-                    numberOfFemaleData++;
+                if(json.getString("data.gender["+j+"]")!=null) {
+                    if (json.getString("data.gender[" + j + "]").equals("Female")) {
+                        System.out.println(i + " page, " + j + " index data is FEMALE");
+                        numberOfFemaleData++;
+                    }
                 }
             }
         }
@@ -139,46 +145,249 @@ public class US_01_Test {
     }
     @Test
     public void tc0110(){
-
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            stringDataList.addAll(json.getList("data.name"));
+            stringDataSet.addAll(json.getList("data.name"));
+        }
+        Assert.assertNotEquals(stringDataList.size(), stringDataSet.size());
+        int sameData =0;
+        for (int w = 0; w< stringDataList.size(); w++){
+            for(int j = 0; j< stringDataSet.size(); j++){
+                if(w!=j && stringDataList.get(w).equals(stringDataList.get(j))){
+                    sameData++;
+                    System.out.println(stringDataList.get(w));
+                }
+            }
+        }
+        System.out.println("total dublicate data: " + sameData);
     }
     @Test
     public void tc0111(){
-
+        int numberOfFemaleData = 0;
+        int numberOfMaleData = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++) {
+                if (json.getString("data.gender[" + j + "]") != null) {
+                    if (json.getString("data.gender[" + j + "]").equals("Female")) {
+                        System.out.println(i + " page, " + j + " index data is FEMALE");
+                        numberOfFemaleData++;
+                    } else {
+                        numberOfMaleData++;
+                    }
+                }
+            }
+        }
+        System.out.println("female data total: "+numberOfFemaleData);
+        System.out.println("male data total: "+numberOfMaleData);
     }
     @Test
     public void tc0112(){
-
+        int numberOfActiveData = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.status["+j+"]").equals("Active")){
+                    System.out.println(i+" page, "+ j + " index data is ACTIVE");
+                    numberOfActiveData++;
+                }
+            }
+        }
+        System.out.println(numberOfActiveData);
     }
     @Test
     public void tc0113(){
-
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            integerDataList.addAll(json.getList("data.id"));
+        }
+        Assert.assertFalse(integerDataList.contains(4142));
     }
     @Test
     public void tc0114(){
+        String [] dataTypes = {"name", "email", "gender", "status", "created_at", "updated_at"};
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++) {
+                if (json.getString("data[" + j + "]") != null) {
+                    for (int k = 0; k < dataTypes.length; k++) {
+                        if (json.getString("data." + dataTypes[k] + "[" + j + "]").equals(null)) {
+                            System.out.println(i + " page, " + j + " index " + dataTypes[k] + " data is NULL");
+                            System.exit(1);
+                        }
+                    }
+                }
+            }
+        }
 
     }
     @Test
     public void tc0115(){
-
-    }@Test
+        String searchName = "Patricia";
+        int controlCode = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                //System.out.println(json.getString("data.name["+j+"]"));
+                if (json.getString("data.name[" + j + "]") != null) {
+                    if (json.getString("data.name[" + j + "]").equals(searchName)) {
+                        System.out.println(i + " page, " + j + " index name is " + searchName);
+                        controlCode++;
+                    }
+                }
+            }
+        }
+        Assert.assertEquals(controlCode,0);
+    }
+    @Test
     public void tc0116(){
-
+        String searchEmail = "aliveli@gmail.com";
+        int controlCode = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.email["+j+"]")!=null){
+                    if(json.getString("data.email["+j+"]").equals(searchEmail)) {
+                        System.out.println(i + " page, " + j + " index name is " + searchEmail);
+                        controlCode++;
+                }
+                }
+            }
+        }
+        //Assert.assertEquals(controlCode,0);
     }
     @Test
     public void tc0117(){
-
+        String searchEmail = "@gmail";
+        int controlCode = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.email["+j+"]")!=null){
+                    if(json.getString("data.email["+j+"]").contains(searchEmail)){
+                        System.out.println(i+" page, "+ j + " index name is " + searchEmail);
+                        controlCode++;
+                    }
+                }
+            }
+        }
+        System.out.println("total search result: "+controlCode);
+        Assert.assertTrue(controlCode>0);
     }
     @Test
     public void tc0118(){
-
+        int year = 2020;
+        int controlCode = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.created_at["+j+"]")!=null){
+                    if(Integer.valueOf(json.getString("data.created_at["+j+"]").substring(0,4))<year){
+                        System.out.println(i+" page, "+ j + " index name is " + year);
+                        controlCode++;
+                    }
+                }
+            }
+        }
+        System.out.println("total search result: "+controlCode);
+        Assert.assertTrue(controlCode>=0);
     }
+
     @Test
     public void tc0119(){
+        int numberOfMaleData = 0;
+        String sirname ="";
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.name["+j+"]")!=null){
+                    for(int k=json.getString("data.name["+j+"]").length()-1;k>=0;k--){
+                        if(json.getString("data.name["+j+"]").charAt(k)==' '){
+                            sirname = json.getString("data.name["+j+"]").substring(k+1);
+                            System.out.println(sirname);
+                            if(sirname.charAt(0)=='A' || sirname.charAt(0)=='D'  ){
+                                System.out.println(i+" page, "+ j + " index data begins with A or D: "+ sirname);
+                                numberOfMaleData++;
+                            }
+                        }
+                    }
 
+                }
+
+            }
+        }
+        System.out.println(numberOfMaleData);
+        //Assert.assertEquals(numberOfMaleData,0);
     }
     @Test
     public void tc0120(){
-
+        int controlCode = 0;
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        int totalLimitPerPages = json.getInt("meta.pagination.limit");
+        for(int i=1;i<=totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for(int j=0;j<totalLimitPerPages;j++){
+                if(json.getString("data.created_at["+j+"]")!=null){
+                    if(!json.getString("data.created_at["+j+"]").equals(json.getString("data.updated_at["+j+"]"))){
+                        System.out.println(i+" page, "+ j + " index name is UPDATED");
+                        controlCode++;
+                    }
+                }
+            }
+        }
+        System.out.println("total UPDATED result: "+controlCode);
+        Assert.assertTrue(controlCode>0);
     }
 
 
