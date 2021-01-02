@@ -283,7 +283,7 @@ public class US_01_Test {
                     if(json.getString("data.email["+j+"]").equals(searchEmail)) {
                         System.out.println(i + " page, " + j + " index name is " + searchEmail);
                         controlCode++;
-                }
+                    }
                 }
             }
         }
@@ -389,6 +389,7 @@ public class US_01_Test {
         System.out.println("total UPDATED result: "+controlCode);
         Assert.assertTrue(controlCode>0);
     }
+
 
 
 }
