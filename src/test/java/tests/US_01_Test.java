@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 import java.util.*;
 
 public class US_01_Test {
-    Response response;
+    Response response
     String endPoint = "https://gorest.co.in/public-api/users/";
     JsonPath json;
     List<Integer> integerDataList = new ArrayList<>();
