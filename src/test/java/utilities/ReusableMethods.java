@@ -1,6 +1,5 @@
 package utilities;
-
-
+import io.cucumber.core.internal.gherkin.StringUtils;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -8,13 +7,13 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
@@ -105,8 +104,7 @@ public class ReusableMethods {
         }
     }
     //======Fluent Wait====//
-    public static WebElement fluentWait(final WebElement webElement, int timeinsec)
-    {
+    public static WebElement fluentWait(final WebElement webElement, int timeinsec) {
         FluentWait<WebDriver> wait = new FluentWait<WebDriver>(Driver.getDriver())
                 .withTimeout(timeinsec, TimeUnit.SECONDS).pollingEvery(timeinsec, TimeUnit.SECONDS)
                 .ignoring(NoSuchElementException.class);
@@ -116,5 +114,15 @@ public class ReusableMethods {
             }
         });
         return element;
+    }
+    //---------Random String-------------//
+    public static String randomString (int number){
+        Random ran = new Random();
+        String data ="";
+        for (int i=0;i<number;i++){
+            int x = ran.nextInt(25) + 97;
+            data = data + (char)(x);
+        }
+        return data;
     }
 }
