@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
-public class US_02_Test {
+public class US_02_Test_Post {
     Response response;
     String endPoint = "https://gorest.co.in/public-api/users/";
     Map<String,Object> dataSendMap = new HashMap<>();
@@ -207,16 +207,16 @@ public class US_02_Test {
     }
     @Test
     public void tc0211(){
-        List<Object>allKindsOfData = new ArrayList<>();
-        allKindsOfData.add(123);
-        allKindsOfData.add("aliveli");
-        allKindsOfData.add("aliveli@");
-        allKindsOfData.add('h');
-        allKindsOfData.add(12.956);
-        allKindsOfData.add(12+"aliveli");
-        for(int i=0;i<allKindsOfData.size();i++){
+        List<Object>allKindsOfWrongData = new ArrayList<>();
+        allKindsOfWrongData.add(123);
+        allKindsOfWrongData.add("aliveli");
+        allKindsOfWrongData.add("aliveli@");
+        allKindsOfWrongData.add('h');
+        allKindsOfWrongData.add(12.956);
+        allKindsOfWrongData.add(12+"aliveli");
+        for(int i=0;i<allKindsOfWrongData.size();i++){
             dataSendMap.put("name",ReusableMethods.randomString(6));
-            dataSendMap.put("email",allKindsOfData.get(i));
+            dataSendMap.put("email",allKindsOfWrongData.get(i));
             dataSendMap.put("gender","Female");
             dataSendMap.put("status","Active");
             response =  given().

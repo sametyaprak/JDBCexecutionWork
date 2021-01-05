@@ -9,7 +9,7 @@ import org.testng.Assert;
 import utilities.ConfigReader;
 import java.util.*;
 
-public class US_01_Test {
+public class US_01_Test_Get {
     Response response;
     String endPoint = "https://gorest.co.in/public-api/users/";
     JsonPath json;

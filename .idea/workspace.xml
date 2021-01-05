@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_Put.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_Get.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mKrZ1Td893PurZ0bmzx3B5c4tp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,8 +56,8 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.US_02_Test">
-    <configuration name="US_02_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_03_Test_Put">
+    <configuration name="US_03_Test_Put" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -55,13 +66,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_02_Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_02_Test.tc0214" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Test_Put.TC0313" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +83,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_02_Test" />
-      <option name="METHOD_NAME" value="tc0214" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
+      <option name="METHOD_NAME" value="TC0313" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_02_Test.tc0215" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Test_Put.TC0314" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +101,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_02_Test" />
-      <option name="METHOD_NAME" value="tc0215" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
+      <option name="METHOD_NAME" value="TC0314" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_02_Test.tc0216" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Test_Put.TC0315" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +119,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_02_Test" />
-      <option name="METHOD_NAME" value="tc0216" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
+      <option name="METHOD_NAME" value="TC0315" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_02_Test.tc0217" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Test_Put.TC0317" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -118,20 +137,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_02_Test" />
-      <option name="METHOD_NAME" value="tc0217" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
+      <option name="METHOD_NAME" value="TC0317" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.US_02_Test" />
-        <item itemvalue="JUnit.US_02_Test.tc0217" />
-        <item itemvalue="JUnit.US_02_Test.tc0216" />
-        <item itemvalue="JUnit.US_02_Test.tc0215" />
-        <item itemvalue="JUnit.US_02_Test.tc0214" />
+        <item itemvalue="TestNG.US_03_Test_Put" />
+        <item itemvalue="TestNG.US_03_Test_Put.TC0317" />
+        <item itemvalue="TestNG.US_03_Test_Put.TC0315" />
+        <item itemvalue="TestNG.US_03_Test_Put.TC0314" />
+        <item itemvalue="TestNG.US_03_Test_Put.TC0313" />
       </list>
     </recent_temporary>
   </component>
