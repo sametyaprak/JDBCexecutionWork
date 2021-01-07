@@ -125,4 +125,10 @@ public class ReusableMethods {
         }
         return data;
     }
+    //---------Random Integer-------------//
+    public static int randomInteger (int number){
+        Random ran = new Random();
+            int x = ran.nextInt(number) + 0;
+        return x;
+    }
 }
