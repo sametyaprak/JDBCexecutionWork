@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Get01Deneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_Delete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_Get.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtilX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtilX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/exceldata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/exceldata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/exceldata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/exceldata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test_Get.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test_Get.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtilX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtilX.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,23 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_04_Test_Delete.TC0301">
+  <component name="RunManager" selected="JUnit.US_01_Test_Get.getAllDataToecxel">
+    <configuration name="US_01_Test_Get.getAllDataToecxel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_Get" />
+      <option name="METHOD_NAME" value="getAllDataToecxel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Get01Deneme.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
@@ -110,23 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_03_Test_Put" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_Put" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="US_04_Test_Delete.TC0301" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.US_01_Test_Get.getAllDataToecxel" />
         <item itemvalue="TestNG.US_04_Test_Delete.TC0301" />
         <item itemvalue="TestNG.Get01Deneme.TC02" />
         <item itemvalue="TestNG.Get01Deneme.TC01" />
         <item itemvalue="TestNG.Get01Deneme.test" />
-        <item itemvalue="TestNG.US_03_Test_Put" />
       </list>
     </recent_temporary>
   </component>

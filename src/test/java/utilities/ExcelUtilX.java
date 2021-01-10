@@ -113,7 +113,7 @@ public class ExcelUtilX {
             e.printStackTrace();
         }
     }
-    public void setCellData(String value, String columnName, int row) {
+    public void setCellDataWithColumnName(String value, String columnName, int row) {
         int column = getColumnsNames().indexOf(columnName);
         setCellData(value, row, column);
     }

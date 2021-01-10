@@ -7,6 +7,8 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import org.testng.Assert;
 import utilities.ConfigReader;
+import utilities.ExcelUtilX;
+
 import java.util.*;
 
 public class US_01_Test_Get {
@@ -20,6 +22,34 @@ public class US_01_Test_Get {
 
     public void getResponse(String endPoint){
         response = given().accept(ContentType.JSON).auth().oauth2(ConfigReader.getProperty("token")).when().get(endPoint);
+    }
+    @Test
+    public void getAllDataToecxel(){
+        String excelPath = "src/test/resources/exceldata.xlsx";
+        String sheetName = "allData";
+        int row =1;
+        ExcelUtilX excelObject = new ExcelUtilX(excelPath,sheetName);
+        getResponse(endPoint);
+        json = response.jsonPath();
+        int totalPages = json.getInt("meta.pagination.pages");
+        for(int i=1;i<totalPages;i++){
+            getResponse(endPoint+ "?page="+i);
+            json = response.jsonPath();
+            for (int j=0;j<20;j++){
+                if(!json.getString("data.name["+j+"]").equals(null)){
+                String data = json.getString("data.name["+j+"]");
+                    Integer idValue = json.getInt("data.id["+j+"]");
+                    excelObject.setCellDataWithColumnName(idValue.toString(),"id",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.name["+j+"]"),"name",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.email["+j+"]"),"email",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.gender["+j+"]"),"gender",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.status["+j+"]"),"status",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.created_at["+j+"]"),"created_at",row);
+                    excelObject.setCellDataWithColumnName(json.getString("data.updated_at["+j+"]"),"updated_at",row);
+                    row++;
+                }
+            }
+        }
     }
 
     @Test
