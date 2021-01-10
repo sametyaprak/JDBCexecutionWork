@@ -23,7 +23,7 @@ public class US_01_Test_Get {
     public void getResponse(String endPoint){
         response = given().accept(ContentType.JSON).auth().oauth2(ConfigReader.getProperty("token")).when().get(endPoint);
     }
-    @Test
+
     public void getAllDataToecxel(){
         String excelPath = "src/test/resources/exceldata.xlsx";
         String sheetName = "allData";
