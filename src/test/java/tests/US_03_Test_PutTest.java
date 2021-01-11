@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import static io.restassured.RestAssured.*;
 
-public class US_03_Test_Put {
+public class US_03_Test_PutTest {
     Response response;
     Map<String,Object> myPutData = new HashMap<>();
     String endpoint = "https://gorest.co.in/public-api/users/12";

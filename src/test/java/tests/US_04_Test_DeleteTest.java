@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 
 import static io.restassured.RestAssured.given;
 
-public class US_04_Test_Delete {
+public class US_04_Test_DeleteTest {
     Response response;
     String endpoint = "https://gorest.co.in/public-api/users/";
     JsonPath jsonPath;

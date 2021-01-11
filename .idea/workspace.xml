@@ -5,56 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ApiGoRest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-utilities.TestBase.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/utilities.TestBase/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/utilities.TestBase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/utilities.TestBase/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/utilities.TestBase/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/exceldata.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pojos/UserPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get01Deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test_Get.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test_Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test_Put.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test_Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DatabaseConnectorX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtilX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get01Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get01DenemeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_GetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_PostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_Put.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_PutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_DeleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +62,8 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.US_01_Test_Get">
-    <configuration name="US_01_Test_Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.US_01_Test_GetTest">
+    <configuration name="US_01_Test_GetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +72,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_Get" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_GetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_01_Test_Get.getAllDataToecxel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_01_Test_GetTest.getAllDataToecxel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_Get" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_GetTest" />
       <option name="METHOD_NAME" value="getAllDataToecxel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get01Deneme.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Get01DenemeTest.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +103,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Get01Deneme" />
+      <option name="MAIN_CLASS_NAME" value="tests.Get01DenemeTest" />
       <option name="METHOD_NAME" value="TC02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -155,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_04_Test_Delete" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_04_Test_DeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_Delete" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_DeleteTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -172,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_04_Test_Delete.TC0301" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_04_Test_DeleteTest.TC0301" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -181,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_Delete" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_DeleteTest" />
       <option name="METHOD_NAME" value="TC0301" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -192,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.US_01_Test_Get" />
-        <item itemvalue="TestNG.US_04_Test_Delete" />
-        <item itemvalue="TestNG.Get01Deneme.TC02" />
-        <item itemvalue="JUnit.US_01_Test_Get.getAllDataToecxel" />
-        <item itemvalue="TestNG.US_04_Test_Delete.TC0301" />
+        <item itemvalue="JUnit.US_01_Test_GetTest" />
+        <item itemvalue="TestNG.US_04_Test_DeleteTest" />
+        <item itemvalue="TestNG.Get01DenemeTest.TC02" />
+        <item itemvalue="JUnit.US_01_Test_GetTest.getAllDataToecxel" />
+        <item itemvalue="TestNG.US_04_Test_DeleteTest.TC0301" />
       </list>
     </recent_temporary>
   </component>

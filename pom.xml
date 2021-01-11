@@ -181,7 +181,14 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-jar</id>
+                    </execution>
+                </executions>
+                <version>3.2.0</version>
                 <configuration>
                     <classesDirectory>dummy</classesDirectory>
                 </configuration>

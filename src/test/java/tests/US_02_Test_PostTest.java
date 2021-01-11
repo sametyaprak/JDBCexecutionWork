@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
-public class US_02_Test_Post {
+public class US_02_Test_PostTest {
     Response response;
     String endPoint = "https://gorest.co.in/public-api/users/";
     Map<String,Object> dataSendMap = new HashMap<>();

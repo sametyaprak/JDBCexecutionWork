@@ -11,7 +11,7 @@ import utilities.ExcelUtilX;
 
 import java.util.*;
 
-public class US_01_Test_Get {
+public class US_01_Test_GetTest {
     Response response;
     String endPoint = "https://gorest.co.in/public-api/users/";
     JsonPath json;
