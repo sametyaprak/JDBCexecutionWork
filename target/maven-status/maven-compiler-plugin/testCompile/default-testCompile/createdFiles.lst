@@ -1,0 +1,14 @@
+utilities\ExcelUtilX.class
+utilities\DatabaseConnectorX.class
+utilities\ReusableMethods$2.class
+utilities\ReusableMethods$1.class
+tests\US_03_Test_PutTest.class
+utilities\Driver.class
+tests\US_02_Test_PostTest.class
+utilities\ConfigReader.class
+tests\US_01_Test_GetTest.class
+pojos\UserPojo.class
+tests\Get01DenemeTest.class
+utilities\TestBase.class
+tests\US_04_Test_DeleteTest.class
+utilities\ReusableMethods.class
