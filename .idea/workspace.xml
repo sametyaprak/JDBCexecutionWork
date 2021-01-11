@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_GetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,18 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.tests in ApiGoRest">
+  <component name="RunManager" selected="JUnit.US_01_Test_GetTest and 1 more">
+    <configuration name="US_01_Test_GetTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="tests.US_01_Test_GetTest" />
+        <pattern testClass="tests.US_02_Test_PostTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_01_Test_GetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
@@ -103,24 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get01DenemeTest.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Get01DenemeTest" />
-      <option name="METHOD_NAME" value="TC01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Get01DenemeTest.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
@@ -141,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.US_01_Test_GetTest and 1 more" />
         <item itemvalue="JUnit.tests in ApiGoRest" />
         <item itemvalue="JUnit.US_01_Test_GetTest" />
         <item itemvalue="JUnit.US_01_Test_GetTest.tc0101" />
         <item itemvalue="TestNG.Get01DenemeTest.TC02" />
-        <item itemvalue="TestNG.Get01DenemeTest.TC01" />
       </list>
     </recent_temporary>
   </component>
