@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/configuration.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ApiGoRest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGoRest-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\src\test\java\utilities" />
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\" />
+      <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.US_01_Test_Get">
