@@ -4,8 +4,9 @@ import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.Test;
+
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.ExcelUtilX;
 

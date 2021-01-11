@@ -2,8 +2,9 @@ package tests;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.Test;
+
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import pojos.UserPojo;
 import utilities.ConfigReader;
 import utilities.ReusableMethods;
