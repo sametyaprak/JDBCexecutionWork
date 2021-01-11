@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get01Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get01DenemeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_GetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_PostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_Put.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_PutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_DeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_01_Test_GetTest.getAllDataToecxel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US_01_Test_GetTest.tc0101" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +84,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US_01_Test_GetTest" />
-      <option name="METHOD_NAME" value="getAllDataToecxel" />
+      <option name="METHOD_NAME" value="tc0101" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get01DenemeTest.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Get01DenemeTest" />
+      <option name="METHOD_NAME" value="TC01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_04_Test_DeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Test_PutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -121,26 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_DeleteTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_03_Test_PutTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_04_Test_DeleteTest.TC0301" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_DeleteTest" />
-      <option name="METHOD_NAME" value="TC0301" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.US_01_Test_GetTest" />
-        <item itemvalue="TestNG.US_04_Test_DeleteTest" />
+        <item itemvalue="JUnit.US_01_Test_GetTest.tc0101" />
         <item itemvalue="TestNG.Get01DenemeTest.TC02" />
-        <item itemvalue="JUnit.US_01_Test_GetTest.getAllDataToecxel" />
-        <item itemvalue="TestNG.US_04_Test_DeleteTest.TC0301" />
+        <item itemvalue="TestNG.Get01DenemeTest.TC01" />
+        <item itemvalue="TestNG.US_03_Test_PutTest" />
       </list>
     </recent_temporary>
   </component>

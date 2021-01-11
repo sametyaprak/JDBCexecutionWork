@@ -9,7 +9,7 @@ public class ConfigReader {
     // static yaptık çünkü nesne oluşturmadan doğrudan erişim sağlamak istedik
     static {
 
-        String path = "C:\\Users\\samet\\IdeaProjects\\ApiGoRest\\configuration.properties";
+        String path = "configuration.properties";
 
         try {
             FileInputStream fileInputStream = new FileInputStream(path);
