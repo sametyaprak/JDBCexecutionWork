@@ -95,7 +95,7 @@ public class US_01_Test_GetTest {
         Assert.assertTrue(sum==0);
     }
     @Test
-    public void tc106(){
+    public void tc0106(){
         getResponse(endPoint);
         json = response.jsonPath();
         int totalPages = json.getInt("meta.pagination.pages");
