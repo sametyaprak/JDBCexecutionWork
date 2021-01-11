@@ -17,7 +17,7 @@ import static io.restassured.RestAssured.*;
 public class US_03_Test_PutTest {
     Response response;
     Map<String,Object> myPutData = new HashMap<>();
-    String endpoint = "https://gorest.co.in/public-api/users/12";
+    String endpoint = "https://gorest.co.in/public-api/users/99";
     List<Object> allKindsOfWrongData = new ArrayList<>();
     JsonPath jsonPath;
     public void putResponse(Map data){

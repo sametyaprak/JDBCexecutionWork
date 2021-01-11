@@ -4,6 +4,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import pojos.UserPojo;
 import utilities.ConfigReader;
@@ -21,6 +22,10 @@ public class US_02_Test_PostTest {
     String endPoint = "https://gorest.co.in/public-api/users/";
     Map<String,Object> dataSendMap = new HashMap<>();
 
+    @AfterMethod
+    public void after(){
+        dataSendMap.clear();
+    }
     @Test
     public void tc0201(){
         UserPojo userPojo = new UserPojo(ReusableMethods.randomString(5),
@@ -49,6 +54,7 @@ public class US_02_Test_PostTest {
         JsonPath json = response.jsonPath();
         Assert.assertEquals(json.getString("data.field[0]"),"name");
         Assert.assertEquals(json.getString("data.message[0]"),"can't be blank");
+        dataSendMap.clear();
     }
     @Test
     public void tc0203(){

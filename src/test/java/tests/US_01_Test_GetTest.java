@@ -106,7 +106,7 @@ public class US_01_Test_GetTest {
             integerDataList.addAll(json.getList("data.id"));
             integerDataSet.addAll(json.getList("data.id"));
         }
-        Assert.assertEquals(integerDataList.size(), integerDataSet.size());
+        Assert.assertNotEquals(integerDataList.size(), integerDataSet.size());
     }
 
 
