@@ -39,5 +39,6 @@ public class US_04_Test_DeleteTest {
         getMethod(deletedId);
         jsonPath = response.jsonPath();
         Assert.assertEquals(jsonPath.getString("data.message"),"Resource not found");
+
     }
 }
