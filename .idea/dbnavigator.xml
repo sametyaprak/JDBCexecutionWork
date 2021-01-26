@@ -25,13 +25,57 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="1e30cdcf-c0a0-42da-83cf-6865c1b3b9e2">
-        <schema name="public" object-types="view, sequence, table, function" />
+        <schema name="public" object-types="function, table, sequence, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1e30cdcf-c0a0-42da-83cf-6865c1b3b9e2">
-      <console name="Connection 2" type="STANDARD" schema="information_schema" session="Main" />
+      <console name="Connection 2" type="STANDARD" schema="information_schema" session="Main"><![CDATA[katerori ID.si 
+
+select * from public.categories
+
+---------------------------
+--her bir kategori id'ye göre kaç tane ürün olduğunu bulun ve bunları azalan sıralama ile yazın
+
+select * from "public".products
+
+select "public".products.category_id, count (category_id) as total_product
+from "public".products
+group by category_id
+order by count (category_id) desc
+--------------------------------  
+select * from "public".products
+
+select supplier_id from "public".suppliers where country = 'Germany'
+
+-----------------
+--supliers ülkesi almanya olan ülkelerin product name.leri nedir?
+select product_name from "public".products
+inner join "public".suppliers 
+on "public".products.supplier_id="public".suppliers.supplier_id
+where "public".suppliers.country = 'Germany'
+----------------------
+--suppliers region.u 'OR' olan product name.leri nedir?
+
+select product_name from "public".products
+where supplier_id = (select supplier_id from "public".suppliers where region='OR')
+
+-------------------------------------------------
+--contact title i owner olan kisilerin region degerlerinin null oldugunu dogrulayiniz
+select * from "public".suppliers
+
+
+select region from "public".suppliers where contact_title ='Owner'
+
+---------------------------------------------------------------------
+--1-deniz ürünleri kategorisine ait ürünlerin isimlerini ve category_name lerini getirelim 
+--toplamda 12 adet ürün oldugunu dogrulayalim:
+
+select product_name, category_name from "public".categories
+join "public".products 
+on "public".categories.category_id = "public".products.category_id
+where category_name = 'Seafood']]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -39,6 +83,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="1e30cdcf-c0a0-42da-83cf-6865c1b3b9e2" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="1e30cdcf-c0a0-42da-83cf-6865c1b3b9e2" dataset="public.categories" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />

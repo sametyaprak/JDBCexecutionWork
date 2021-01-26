@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="delete method change">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/postDeneme.java" afterDir="false" />
+    <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
+      <change afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/User2Pojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/exceldata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/exceldata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire15982853369882205904tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire_08410309929505804108tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter18039988545536734057.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test_DeleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test_DeleteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/postDeneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/postDeneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/utilities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UIexecutionWork" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,18 +62,18 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_04_Test_DeleteTest.TC0301">
-    <configuration name="US_04_Test_DeleteTest.TC0301" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Ders1.test3">
+    <configuration name="Ders1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="databaseWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_04_Test_DeleteTest" />
-      <option name="METHOD_NAME" value="TC0301" />
+      <option name="PACKAGE_NAME" value="databaseWork" />
+      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,17 +81,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postDeneme.get" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ders1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="databaseWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.postDeneme" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="PACKAGE_NAME" value="databaseWork" />
+      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,35 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postDeneme.post" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ders1.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="databaseWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.postDeneme" />
-      <option name="METHOD_NAME" value="post" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="postDeneme.post2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.postDeneme" />
-      <option name="METHOD_NAME" value="post2" />
+      <option name="PACKAGE_NAME" value="databaseWork" />
+      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,13 +135,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="postDeneme.post4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.postDeneme" />
+      <option name="METHOD_NAME" value="post4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_04_Test_DeleteTest.TC0301" />
-        <item itemvalue="TestNG.postDeneme.post2" />
+        <item itemvalue="TestNG.Ders1.test3" />
+        <item itemvalue="TestNG.Ders1.test2" />
+        <item itemvalue="TestNG.Ders1.test1" />
+        <item itemvalue="TestNG.postDeneme.post4" />
         <item itemvalue="TestNG.postDeneme.post3" />
-        <item itemvalue="TestNG.postDeneme.post" />
-        <item itemvalue="TestNG.postDeneme.get" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610468751251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete method change">
+      <created>1611046312446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611046312447</updated>
+    </task>
+    <task id="LOCAL-00003" summary="token degisti">
+      <created>1611046375884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611046375884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete method change" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete method change" />
+    <MESSAGE value="token degisti" />
+    <option name="LAST_COMMIT_MESSAGE" value="token degisti" />
   </component>
 </project>

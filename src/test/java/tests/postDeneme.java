@@ -3,9 +3,10 @@ package tests;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import pojos.User2Pojo;
 import utilities.ConfigReader;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ public class postDeneme {
     Map<String,Object> myPostData = new HashMap<>();
     JsonPath jsonPath;
 
-    public void postMethod(Map body){
+    public void postMethod(Object body){
         response = given().contentType(ContentType.JSON).auth().oauth2(ConfigReader.getProperty("token")).body(body).when().post(endpoint);
         response.prettyPrint();
     }
@@ -51,6 +52,23 @@ public class postDeneme {
 //        System.out.println(myResponseData);
         System.out.println(jsonPath.getString("data.field"));
         System.out.println(jsonPath.getString("data.message"));
+    }
+    @Test
+    public void post3(){
+        User2Pojo object = new User2Pojo(true,"mead@gmail.com","Female","Active");
+        //User2Pojo object2 = new User2Pojo(9999);
+        postMethod(object);
+        jsonPath = response.jsonPath();
+        Assert.assertEquals(jsonPath.getString("data.name"),"9999");
+    }
+    @Test
+    public void post4(){
+        User2Pojo object3 = new User2Pojo();
+        object3.setEmail("samet@gmail.com");
+        object3.setStatus("Inactive");
+        object3.setName(true);
+        object3.setGender("956");
+        postMethod(object3);
     }
 
 

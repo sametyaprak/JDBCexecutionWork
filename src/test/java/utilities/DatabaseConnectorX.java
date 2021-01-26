@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class DatabaseConnectorX {
 
-    private static final String dbusername = utilities.ConfigReader.getProperty("username");
-    private static final String dbpassword = utilities.ConfigReader.getProperty("password");
-    private static final String connectionUrl = utilities.ConfigReader.getProperty("db_url");
+    private static final String dbusername = utilities.ConfigReader.getProperty("databaseUsername");
+    private static final String dbpassword = utilities.ConfigReader.getProperty("databasePassword");
+    private static final String connectionUrl = utilities.ConfigReader.getProperty("databaseURL");
 
     private static Connection connection;
     private static Statement statement;
