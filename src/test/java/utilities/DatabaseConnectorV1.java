@@ -5,11 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DatabaseConnectorX {
+public class DatabaseConnectorV1 {
 
-    private static final String dbusername = utilities.ConfigReader.getProperty("databaseUsername");
-    private static final String dbpassword = utilities.ConfigReader.getProperty("databasePassword");
-    private static final String connectionUrl = utilities.ConfigReader.getProperty("databaseURL");
+    private static final String dbusername = ConfigReader.getProperty("databaseUsername");
+    private static final String dbpassword = ConfigReader.getProperty("databasePassword");
+    private static final String connectionUrl = ConfigReader.getProperty("databaseURL");
 
     private static Connection connection;
     private static Statement statement;
