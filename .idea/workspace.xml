@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGoRest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/User2Pojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/UserPojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_01_Test_GetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test_PostTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_03_Test_PutTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_04_Test_DeleteTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/postDeneme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,19 +71,44 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Ders2.test3">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="TestNG.DBConnect.update">
+    <configuration name="DBConnect.connect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnect" />
+      <option name="METHOD_NAME" value="connect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ders1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DBConnect.update" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnect" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ders1.test4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -96,43 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="databaseWork" />
       <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ders1.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="databaseWork" />
-      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ders2.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="databaseWork" />
-      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders2" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,15 +164,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DBConnect.update" />
+        <item itemvalue="TestNG.DBConnect.connect" />
+        <item itemvalue="TestNG.Ders1.test4" />
         <item itemvalue="TestNG.Ders2.test3" />
         <item itemvalue="TestNG.Ders2.test2" />
-        <item itemvalue="TestNG.Ders2.test1" />
-        <item itemvalue="TestNG.Ders1.test3" />
-        <item itemvalue="TestNG.Ders1.test2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\samet\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="" />
@@ -197,7 +186,25 @@
       <workItem from="1614181730837" duration="5573000" />
       <workItem from="1614790416805" duration="622000" />
       <workItem from="1614889078115" duration="585000" />
-      <workItem from="1615925565487" duration="5528000" />
+      <workItem from="1615925565487" duration="6023000" />
+      <workItem from="1615931985815" duration="123000" />
+      <workItem from="1616009667063" duration="22000" />
+      <workItem from="1616499251581" duration="1203000" />
+      <workItem from="1616526479774" duration="4485000" />
+      <workItem from="1617119962853" duration="1196000" />
+      <workItem from="1617725715292" duration="3119000" />
+      <workItem from="1617951494638" duration="28000" />
+      <workItem from="1618621402085" duration="1064000" />
+      <workItem from="1619120942619" duration="4252000" />
+      <workItem from="1619190169689" duration="4000" />
+      <workItem from="1619190242621" duration="18000" />
+      <workItem from="1619190379030" duration="220000" />
+      <workItem from="1619190717369" duration="29000" />
+      <workItem from="1619469421243" duration="696000" />
+      <workItem from="1619815491707" duration="1252000" />
+      <workItem from="1619917369755" duration="8000" />
+      <workItem from="1619958618192" duration="4136000" />
+      <workItem from="1619990606863" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
