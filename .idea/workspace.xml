@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectPostgre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;oracle" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -71,8 +74,19 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DBConnect.update">
-    <configuration name="DBConnect.connect" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DBConnectOracle.soru3">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectOracle.soru3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +95,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JDBC" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnect" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectOracle" />
+      <option name="METHOD_NAME" value="soru3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectPostgre.connect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectPostgre" />
       <option name="METHOD_NAME" value="connect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -90,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnect.update" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DBConnectPostgre.update" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +131,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JDBC" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnect" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectPostgre" />
       <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -119,24 +151,6 @@
       <option name="PACKAGE_NAME" value="databaseWork" />
       <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
       <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ders2.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="databaseWork" />
-      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders2" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DBConnect.update" />
-        <item itemvalue="TestNG.DBConnect.connect" />
+        <item itemvalue="TestNG.DBConnectOracle.soru3" />
+        <item itemvalue="TestNG.DBConnectPostgre.update" />
+        <item itemvalue="TestNG.DBConnectPostgre.connect" />
         <item itemvalue="TestNG.Ders1.test4" />
         <item itemvalue="TestNG.Ders2.test3" />
-        <item itemvalue="TestNG.Ders2.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +219,8 @@
       <workItem from="1619917369755" duration="8000" />
       <workItem from="1619958618192" duration="4136000" />
       <workItem from="1619990606863" duration="242000" />
+      <workItem from="1620002735939" duration="108000" />
+      <workItem from="1620345878229" duration="4570000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
