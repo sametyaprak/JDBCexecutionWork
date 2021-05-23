@@ -94,10 +94,10 @@
     </schema>
     <schema id="30" parent="1" name="SAMET">
       <ObjectId>112</ObjectId>
-      <CreatedTimestamp>2021-05-01.03:19:51</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-05.19:52:54</ModifiedTimestamp>
+      <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
-      <IntrospectionTimestamp>2021-05-07.02:13:08</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2021-05-22.23:54:34</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>
     <schema id="31" parent="1" name="SAMET1">
@@ -50032,125 +50032,95 @@
       <TargetSchemaName>SYS</TargetSchemaName>
       <TargetObjectName>_V$SXGG_TRANSACTION</TargetObjectName>
     </synonym>
-    <table id="7195" parent="30" name="BOLUMLER">
-      <ObjectId>78395</ObjectId>
-      <CreatedTimestamp>2021-05-05.19:52:49</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-05.19:52:49</ModifiedTimestamp>
+    <table id="7195" parent="30" name="SAMET">
+      <ObjectId>78577</ObjectId>
+      <CreatedTimestamp>2021-05-22.23:54:32</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7196" parent="30" name="MART_SATISLAR">
-      <ObjectId>78105</ObjectId>
-      <CreatedTimestamp>2021-05-01.03:19:51</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-01.03:19:51</ModifiedTimestamp>
+    <table id="7196" parent="30" name="SIRKETLER">
+      <ObjectId>78575</ObjectId>
+      <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7197" parent="30" name="NISAN_SATISLAR">
-      <ObjectId>78106</ObjectId>
-      <CreatedTimestamp>2021-05-01.03:19:51</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-01.03:19:51</ModifiedTimestamp>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <table id="7198" parent="30" name="PERSONEL">
-      <ObjectId>78397</ObjectId>
-      <CreatedTimestamp>2021-05-05.19:52:53</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-05.19:52:53</ModifiedTimestamp>
-      <TemporaryPreserve>1</TemporaryPreserve>
-    </table>
-    <column id="7199" parent="7195" name="BOLUM_ID">
+    <column id="7197" parent="7195" name="SIRKET_ID">
       <Position>1</Position>
-      <DataType>NUMBER(2 digit)|0s</DataType>
+      <DataType>NUMBER(4 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7200" parent="7195" name="BOLUM_ISIM">
-      <Position>2</Position>
-      <DataType>VARCHAR2(14 byte)|0s</DataType>
-    </column>
-    <column id="7201" parent="7195" name="KONUM">
-      <Position>3</Position>
-      <DataType>VARCHAR2(13 byte)|0s</DataType>
-    </column>
-    <index id="7202" parent="7195" name="BOLUM_PK">
-      <ObjectId>78396</ObjectId>
-      <CreatedTimestamp>2021-05-05.19:52:49</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-05.19:52:49</ModifiedTimestamp>
+    <index id="7198" parent="7195" name="SYS_C0011290">
+      <ObjectId>78578</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-22.23:54:32</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
-      <ColNames>BOLUM_ID</ColNames>
+      <ColNames>SIRKET_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7203" parent="7195" name="BOLUM_PK">
-      <ModifiedTimestamp>2021-05-05.19:52:49</ModifiedTimestamp>
-      <ColNames>BOLUM_ID</ColNames>
+    <key id="7199" parent="7195" name="SYS_C0011290">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
+      <ColNames>SIRKET_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>BOLUM_PK</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0011290</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="7204" parent="7196" name="URUN_ID">
-      <Position>1</Position>
-      <DataType>NUMBER(10 digit)|0s</DataType>
-    </column>
-    <column id="7205" parent="7196" name="MUSTERI_ISIM">
-      <Position>2</Position>
-      <DataType>VARCHAR2(50 byte)|0s</DataType>
-    </column>
-    <column id="7206" parent="7196" name="URUN_ISIM">
-      <Position>3</Position>
-      <DataType>VARCHAR2(50 byte)|0s</DataType>
-    </column>
-    <column id="7207" parent="7197" name="URUN_ID">
-      <Position>1</Position>
-      <DataType>NUMBER(10 digit)|0s</DataType>
-    </column>
-    <column id="7208" parent="7197" name="MUSTERI_ISIM">
-      <Position>2</Position>
-      <DataType>VARCHAR2(50 byte)|0s</DataType>
-    </column>
-    <column id="7209" parent="7197" name="URUN_ISIM">
-      <Position>3</Position>
-      <DataType>VARCHAR2(50 byte)|0s</DataType>
-    </column>
-    <column id="7210" parent="7198" name="PERSONEL_ID">
+    <column id="7200" parent="7196" name="SIRKET_ID">
       <Position>1</Position>
       <DataType>NUMBER(4 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7211" parent="7198" name="PERSONEL_ISIM">
+    <column id="7201" parent="7196" name="SIRKET_ADI">
       <Position>2</Position>
-      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <column id="7212" parent="7198" name="MESLEK">
+    <column id="7202" parent="7196" name="MERKEZ_ULKE">
       <Position>3</Position>
-      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="7213" parent="7198" name="MUDUR_ID">
+    <column id="7203" parent="7196" name="ABONE_SAYISI">
       <Position>4</Position>
-      <DataType>NUMBER(4 digit)|0s</DataType>
+      <DataType>NUMBER(15 digit)|0s</DataType>
     </column>
-    <column id="7214" parent="7198" name="ISE_BASLAMA">
+    <column id="7204" parent="7196" name="KURULUS_TARIH">
       <Position>5</Position>
       <DataType>DATE|0s</DataType>
     </column>
-    <column id="7215" parent="7198" name="MAAS">
+    <column id="7205" parent="7196" name="ODEME_TURU">
       <Position>6</Position>
-      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <column id="7216" parent="7198" name="BOLUM_ID">
+    <column id="7206" parent="7196" name="KISISEL_SATIS">
       <Position>7</Position>
-      <DataType>NUMBER(2 digit)|0s</DataType>
+      <DataType>VARCHAR2(3 byte)|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
-    <index id="7217" parent="7198" name="PERSONEL_PK">
-      <ObjectId>78398</ObjectId>
-      <CreatedTimestamp>2021-05-05.19:52:54</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-05.19:52:54</ModifiedTimestamp>
+    <index id="7207" parent="7196" name="SYS_C0011289">
+      <ObjectId>78576</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
-      <ColNames>PERSONEL_ID</ColNames>
+      <ColNames>SIRKET_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7218" parent="7198" name="PERSONEL_PK">
-      <ModifiedTimestamp>2021-05-05.19:52:54</ModifiedTimestamp>
-      <ColNames>PERSONEL_ID</ColNames>
+    <key id="7208" parent="7196" name="SYS_C0011289">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
+      <ColNames>SIRKET_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>PERSONEL_PK</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0011289</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
+    <check id="7209" parent="7196" name="SYS_C0011288">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
+      <ColNames>ABONE_SAYISI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <Predicate>0&lt;abone_Sayisi</Predicate>
+    </check>
   </database-model>
 </dataSource>

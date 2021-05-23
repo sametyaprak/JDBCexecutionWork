@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectPostgre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBC/DBConnectOracle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JDBC/DBConnectOracle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +73,48 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DBConnectOracle.soru3">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US001">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectOracle.soru3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC.*" />
+          <option name="PATTERN" value="teamtrycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JDBC" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectOracle" />
-      <option name="METHOD_NAME" value="soru3" />
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US001.tc0101" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiGoRest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teamtrycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
+      <option name="METHOD_NAME" value="tc0101" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,17 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectPostgre.connect" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001.tc0103" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC.*" />
+          <option name="PATTERN" value="teamtrycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JDBC" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectPostgre" />
-      <option name="METHOD_NAME" value="connect" />
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
+      <option name="METHOD_NAME" value="tc0103" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectPostgre.update" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001.tc0104" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC.*" />
+          <option name="PATTERN" value="teamtrycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JDBC" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DBConnectPostgre" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
+      <option name="METHOD_NAME" value="tc0104" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,35 +158,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ders1.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001.tc0105" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiGoRest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databaseWork.*" />
+          <option name="PATTERN" value="teamtrycatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="databaseWork" />
-      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders1" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ders2.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="databaseWork" />
-      <option name="MAIN_CLASS_NAME" value="databaseWork.Ders2" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
+      <option name="METHOD_NAME" value="tc0105" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DBConnectOracle.soru3" />
-        <item itemvalue="TestNG.DBConnectPostgre.update" />
-        <item itemvalue="TestNG.DBConnectPostgre.connect" />
-        <item itemvalue="TestNG.Ders1.test4" />
-        <item itemvalue="TestNG.Ders2.test3" />
+        <item itemvalue="TestNG.US001" />
+        <item itemvalue="TestNG.US001.tc0104" />
+        <item itemvalue="TestNG.US001.tc0101" />
+        <item itemvalue="TestNG.US001.tc0105" />
+        <item itemvalue="TestNG.US001.tc0103" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,18 @@
       <workItem from="1619958618192" duration="4136000" />
       <workItem from="1619990606863" duration="242000" />
       <workItem from="1620002735939" duration="108000" />
-      <workItem from="1620345878229" duration="4570000" />
+      <workItem from="1620345878229" duration="4676000" />
+      <workItem from="1620398491559" duration="7973000" />
+      <workItem from="1620418894772" duration="5210000" />
+      <workItem from="1620643038457" duration="44000" />
+      <workItem from="1621196814276" duration="601000" />
+      <workItem from="1621545640150" duration="159000" />
+      <workItem from="1621636742909" duration="2000" />
+      <workItem from="1621714518547" duration="9302000" />
+      <workItem from="1621731121028" duration="26000" />
+      <workItem from="1621771894195" duration="594000" />
+      <workItem from="1621799987942" duration="3604000" />
+      <workItem from="1621806902980" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
