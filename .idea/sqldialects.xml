@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/src/test/java/JDBC/DBConnectPostgre.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/test/java/databaseproject/Databasework.java" dialect="GenericSQL" />
   </component>
 </project>

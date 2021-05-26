@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databaseproject/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databaseproject/Databasework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/DBConnectOracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JDBC/DBConnectOracle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JDBC/DBConnectOracle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseWork/Ders1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +72,27 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US001">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Databasework">
+    <configuration name="Databasework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databaseproject.Databasework" />
+      <module name="JDBCexecutionWorkV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databaseproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,24 +125,6 @@
       <option name="PACKAGE_NAME" value="teamtrycatch" />
       <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
       <option name="METHOD_NAME" value="tc0101" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US001.tc0103" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teamtrycatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
-      <option name="METHOD_NAME" value="tc0103" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Databasework" />
         <item itemvalue="TestNG.US001" />
         <item itemvalue="TestNG.US001.tc0104" />
         <item itemvalue="TestNG.US001.tc0101" />
         <item itemvalue="TestNG.US001.tc0105" />
-        <item itemvalue="TestNG.US001.tc0103" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +223,8 @@
       <workItem from="1621731121028" duration="26000" />
       <workItem from="1621771894195" duration="594000" />
       <workItem from="1621799987942" duration="3604000" />
-      <workItem from="1621806902980" duration="308000" />
+      <workItem from="1621806902980" duration="2477000" />
+      <workItem from="1621985193391" duration="5688000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
