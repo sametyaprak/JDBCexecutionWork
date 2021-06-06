@@ -160,7 +160,7 @@ public class DatabaseConnectorV1 {
             // Asagidaki yorumda olan kismi update edeceginiz dataya uygun duzenleyiniz.
 
             preparedStatement.setString(1 ,"AUTHENTICATION_FAILURE"); // 1. ? yerine
-            //preparedStatement.setInt(1,1); //2. ? yerine
+            preparedStatement.setInt(1,1); //2. ? yerine
             //preparedStatement.executeUpdate();
 
             int row  = preparedStatement.executeUpdate();
