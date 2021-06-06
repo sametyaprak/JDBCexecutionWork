@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/src/test/java/databaseproject/odev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseWork/Ders1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/teamtrycatch/US002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,54 +66,13 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.odev">
-    <configuration name="Databasework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databaseproject.Databasework" />
-      <module name="JDBCexecutionWorkV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="odev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databaseproject.odev" />
-      <module name="JDBCexecutionWorkV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databaseproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.US002.tc0206">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teamtrycatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US001.tc0101" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
+    <configuration name="US002.tc0202" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="teamtrycatch.*" />
@@ -132,17 +89,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
-      <option name="METHOD_NAME" value="tc0101" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
+      <option name="METHOD_NAME" value="tc0202" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US001.tc0104" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiGoRest" />
+    <configuration name="US002.tc0203" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="teamtrycatch.*" />
@@ -150,22 +105,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US001" />
-      <option name="METHOD_NAME" value="tc0104" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
+      <option name="METHOD_NAME" value="tc0203" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US002.tc0204" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teamtrycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
+      <option name="METHOD_NAME" value="tc0204" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US002.tc0205" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teamtrycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
+      <option name="METHOD_NAME" value="tc0205" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US002.tc0206" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teamtrycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
+      <option name="METHOD_NAME" value="tc0206" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.odev" />
-        <item itemvalue="Application.Databasework" />
-        <item itemvalue="TestNG.US001" />
-        <item itemvalue="TestNG.US001.tc0104" />
-        <item itemvalue="TestNG.US001.tc0101" />
+        <item itemvalue="JUnit.US002.tc0206" />
+        <item itemvalue="JUnit.US002.tc0205" />
+        <item itemvalue="JUnit.US002.tc0204" />
+        <item itemvalue="JUnit.US002.tc0203" />
+        <item itemvalue="JUnit.US002.tc0202" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,8 @@
       <workItem from="1622892405374" duration="360000" />
       <workItem from="1622893776062" duration="751000" />
       <workItem from="1622900504390" duration="490000" />
-      <workItem from="1622914406030" duration="1484000" />
+      <workItem from="1622914406030" duration="1643000" />
+      <workItem from="1622977015937" duration="3441000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
