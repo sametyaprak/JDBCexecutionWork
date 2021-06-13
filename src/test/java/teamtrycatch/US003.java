@@ -4,7 +4,6 @@ import io.cucumber.java.sl.In;
 import org.junit.Assert;
 import org.junit.Test;
 import utilities.DatabaseConnectorV1;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -29,7 +28,6 @@ public class US003 {
             "from sirketler\n" +
             "where kurulus_tarih is not null\n" +
             "order by kurulus_tarih desc";
-
 
     ResultSet resultSet;
     List<Object> myAllData = new ArrayList<>();

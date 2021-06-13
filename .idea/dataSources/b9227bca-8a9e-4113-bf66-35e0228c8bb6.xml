@@ -95,9 +95,9 @@
     <schema id="30" parent="1" name="SAMET">
       <ObjectId>112</ObjectId>
       <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
-      <ModifiedTimestamp>2021-05-26.01:40:48</ModifiedTimestamp>
+      <ModifiedTimestamp>2021-06-13.23:07:38</ModifiedTimestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
-      <IntrospectionTimestamp>2021-05-26.01:40:51</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2021-06-13.23:07:41</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>
     <schema id="31" parent="1" name="SAMET1">
@@ -50040,36 +50040,42 @@
       <ModifiedTimestamp>2021-05-26.01:40:47</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7196" parent="30" name="SAMET">
+    <table id="7196" parent="30" name="PERSONEL">
+      <ObjectId>78922</ObjectId>
+      <CreatedTimestamp>2021-06-13.23:07:38</CreatedTimestamp>
+      <ModifiedTimestamp>2021-06-13.23:07:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="7197" parent="30" name="SAMET">
       <ObjectId>78577</ObjectId>
       <CreatedTimestamp>2021-05-22.23:54:32</CreatedTimestamp>
       <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7197" parent="30" name="SIRKETLER">
+    <table id="7198" parent="30" name="SIRKETLER">
       <ObjectId>78575</ObjectId>
       <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
       <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="7198" parent="7195" name="BOOK_ID">
+    <column id="7199" parent="7195" name="BOOK_ID">
       <Position>1</Position>
       <DataType>NUMBER(4 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7199" parent="7195" name="BOOK_NAME">
+    <column id="7200" parent="7195" name="BOOK_NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <column id="7200" parent="7195" name="WRITER_NAME">
+    <column id="7201" parent="7195" name="WRITER_NAME">
       <Position>3</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <column id="7201" parent="7195" name="BOOK_PROCE">
+    <column id="7202" parent="7195" name="BOOK_PROCE">
       <Position>4</Position>
       <DataType>NUMBER(15 digit)|0s</DataType>
     </column>
-    <index id="7202" parent="7195" name="SYS_C0011299">
+    <index id="7203" parent="7195" name="SYS_C0011299">
       <ObjectId>78763</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2021-05-26.01:40:48</CreatedTimestamp>
@@ -50078,7 +50084,7 @@
       <ColNames>BOOK_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7203" parent="7195" name="SYS_C0011299">
+    <key id="7204" parent="7195" name="SYS_C0011299">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2021-05-26.01:40:48</ModifiedTimestamp>
       <ColNames>BOOK_ID</ColNames>
@@ -50086,12 +50092,69 @@
       <UnderlyingIndexName>SYS_C0011299</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="7204" parent="7196" name="SIRKET_ID">
+    <column id="7205" parent="7196" name="CALISAN_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7206" parent="7196" name="SIRKET_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="7207" parent="7196" name="AD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7208" parent="7196" name="SOYAD">
+      <Position>4</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7209" parent="7196" name="MAAS">
+      <Position>5</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7210" parent="7196" name="AILE_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="7211" parent="7196" name="ISE_GIRIS">
+      <Position>7</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <index id="7212" parent="7196" name="SYS_C0011388">
+      <ObjectId>78923</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-06-13.23:07:38</CreatedTimestamp>
+      <ModifiedTimestamp>2021-06-13.23:07:38</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CALISAN_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="7213" parent="7196" name="SYS_C0011388">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-06-13.23:07:38</ModifiedTimestamp>
+      <ColNames>CALISAN_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0011388</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="7214" parent="7196" name="PF_SIRKETLER">
+      <ModifiedTimestamp>2021-06-13.23:07:38</ModifiedTimestamp>
+      <ColNames>SIRKET_ID</ColNames>
+      <RefSchemaName>SAMET</RefSchemaName>
+      <RefTableName>SIRKETLER</RefTableName>
+      <RefKeyName>SYS_C0011289</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="7215" parent="7197" name="SIRKET_ID">
       <Position>1</Position>
       <DataType>NUMBER(4 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="7205" parent="7196" name="SYS_C0011290">
+    <index id="7216" parent="7197" name="SYS_C0011290">
       <ObjectId>78578</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2021-05-22.23:54:32</CreatedTimestamp>
@@ -50100,7 +50163,7 @@
       <ColNames>SIRKET_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7206" parent="7196" name="SYS_C0011290">
+    <key id="7217" parent="7197" name="SYS_C0011290">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2021-05-22.23:54:32</ModifiedTimestamp>
       <ColNames>SIRKET_ID</ColNames>
@@ -50108,39 +50171,39 @@
       <UnderlyingIndexName>SYS_C0011290</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="7207" parent="7197" name="SIRKET_ID">
+    <column id="7218" parent="7198" name="SIRKET_ID">
       <Position>1</Position>
       <DataType>NUMBER(4 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7208" parent="7197" name="SIRKET_ADI">
+    <column id="7219" parent="7198" name="SIRKET_ADI">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <column id="7209" parent="7197" name="MERKEZ_ULKE">
+    <column id="7220" parent="7198" name="MERKEZ_ULKE">
       <Position>3</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7210" parent="7197" name="ABONE_SAYISI">
+    <column id="7221" parent="7198" name="ABONE_SAYISI">
       <Position>4</Position>
       <DataType>NUMBER(15 digit)|0s</DataType>
     </column>
-    <column id="7211" parent="7197" name="KURULUS_TARIH">
+    <column id="7222" parent="7198" name="KURULUS_TARIH">
       <Position>5</Position>
       <DataType>DATE|0s</DataType>
     </column>
-    <column id="7212" parent="7197" name="ODEME_TURU">
+    <column id="7223" parent="7198" name="ODEME_TURU">
       <Position>6</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7213" parent="7197" name="KISISEL_SATIS">
+    <column id="7224" parent="7198" name="KISISEL_SATIS">
       <Position>7</Position>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="7214" parent="7197" name="SYS_C0011289">
+    <index id="7225" parent="7198" name="SYS_C0011289">
       <ObjectId>78576</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2021-05-22.23:33:02</CreatedTimestamp>
@@ -50149,7 +50212,7 @@
       <ColNames>SIRKET_ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7215" parent="7197" name="SYS_C0011289">
+    <key id="7226" parent="7198" name="SYS_C0011289">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
       <ColNames>SIRKET_ID</ColNames>
@@ -50157,7 +50220,7 @@
       <UnderlyingIndexName>SYS_C0011289</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <check id="7216" parent="7197" name="SYS_C0011288">
+    <check id="7227" parent="7198" name="SYS_C0011288">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2021-05-22.23:33:02</ModifiedTimestamp>
       <ColNames>ABONE_SAYISI</ColNames>

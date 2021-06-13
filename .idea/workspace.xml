@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9227bca-8a9e-4113-bf66-35e0228c8bb6/storage_v2/_src_/schema/SAMET.rlSwBA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teamtrycatch/US003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DatabaseConnectorV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +69,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.US003.tc0303">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,7 +227,9 @@
       <workItem from="1622893776062" duration="751000" />
       <workItem from="1622900504390" duration="490000" />
       <workItem from="1622914406030" duration="1643000" />
-      <workItem from="1622977015937" duration="5097000" />
+      <workItem from="1622977015937" duration="5141000" />
+      <workItem from="1623600886368" duration="3180000" />
+      <workItem from="1623617617569" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
