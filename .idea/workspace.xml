@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
-      <change afterPath="$PROJECT_DIR$/src/test/java/databaseproject/odev2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/teamtrycatch/US003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/teamtrycatch/US003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databaseproject/odev2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseproject/odev2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseproject/odev2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseproject/odev2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +77,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,7 +218,9 @@
       <workItem from="1624277477386" duration="2098000" />
       <workItem from="1624366839850" duration="7000" />
       <workItem from="1624475538603" duration="1006000" />
-      <workItem from="1624486250761" duration="2245000" />
+      <workItem from="1624486250761" duration="2441000" />
+      <workItem from="1624555805015" duration="375000" />
+      <workItem from="1624627055040" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>

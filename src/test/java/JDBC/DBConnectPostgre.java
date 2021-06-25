@@ -28,6 +28,7 @@ public class DBConnectPostgre {
         statement.executeQuery();
         statement.executeUpdate();
         */
+
         resultSet = statement.executeQuery("select city from customers;");
 
         List<String> myData = new ArrayList<>();
