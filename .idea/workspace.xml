@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66526155-93f0-4529-a75e-356124a9c304" name="Default Changelist" comment="token degisti">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databaseproject/odev2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databaseproject/odev2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/databaseproject/odev2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/databaseproject/odev2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/teamtrycatch/US004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teamtrycatch/US004.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="C:\Users\samet\IdeaProjects\ApiGoRest\target" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.odev2">
+  <component name="RunManager" selected="JUnit.US004.tc0401">
     <configuration name="odev2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databaseproject.odev2" />
       <module name="JDBCexecutionWorkV1" />
@@ -81,7 +80,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US002.tc0206" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCexecutionWorkV1" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +100,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US002" />
-      <option name="METHOD_NAME" value="tc0206" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US004" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US004.tc0401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCexecutionWorkV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teamtrycatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teamtrycatch" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US004" />
+      <option name="METHOD_NAME" value="tc0401" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US003.tc0301" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US004.tc0402" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCexecutionWorkV1" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +131,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US003" />
-      <option name="METHOD_NAME" value="tc0301" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US004" />
+      <option name="METHOD_NAME" value="tc0402" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US003.tc0302" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="US004.tc0403" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBCexecutionWorkV1" />
       <extension name="coverage">
         <pattern>
@@ -122,24 +147,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US003" />
-      <option name="METHOD_NAME" value="tc0302" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US003.tc0303" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCexecutionWorkV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teamtrycatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teamtrycatch" />
-      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US003" />
-      <option name="METHOD_NAME" value="tc0303" />
+      <option name="MAIN_CLASS_NAME" value="teamtrycatch.US004" />
+      <option name="METHOD_NAME" value="tc0403" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.US004.tc0401" />
+        <item itemvalue="JUnit.US004.tc0403" />
+        <item itemvalue="JUnit.US004" />
+        <item itemvalue="JUnit.US004.tc0402" />
         <item itemvalue="Application.odev2" />
-        <item itemvalue="JUnit.US003.tc0303" />
-        <item itemvalue="JUnit.US003.tc0302" />
-        <item itemvalue="JUnit.US003.tc0301" />
-        <item itemvalue="JUnit.US002.tc0206" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +229,9 @@
       <workItem from="1624475538603" duration="1006000" />
       <workItem from="1624486250761" duration="2441000" />
       <workItem from="1624555805015" duration="375000" />
-      <workItem from="1624627055040" duration="2384000" />
+      <workItem from="1624627055040" duration="2677000" />
+      <workItem from="1624645321597" duration="9000" />
+      <workItem from="1625573954985" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="delete method change">
       <created>1610468751251</created>
