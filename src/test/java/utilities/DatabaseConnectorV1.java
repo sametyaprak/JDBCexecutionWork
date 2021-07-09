@@ -133,24 +133,27 @@ public class DatabaseConnectorV1 {
 
 
     // ============= update a row =============== //
-    public static void executeUpdateQuery(String updateQuery) {
+    public static int executeUpdateQuery(String updateQuery) {
         createConnection();
+        int row = 0;
 //        String updateQueryExample = "UPDATE tp_state SET name=? WHERE id =?";
         try {
             preparedStatement = connection.prepareStatement(updateQuery);
             // Asagidaki yorumda olan kismi update edeceginiz dataya uygun duzenleyiniz.
 
-          preparedStatement.setString(1 ,"HATA"); // 1. ? yerine
+          //preparedStatement.setString(1 ,"HATA"); // 1. ? yerine
             //preparedStatement.setInt(1,1); //2. ? yerine
-            //preparedStatement.executeUpdate();
+            preparedStatement.executeUpdate();
 
-            int row  = preparedStatement.executeUpdate();
+            row  = preparedStatement.executeUpdate();
             preparedStatement.close();
             System.out.println("Affected row: " + row);
+
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return row;
     }
     public static void executeUpdateQueryFix(String updateQuery) {
         createConnection();
